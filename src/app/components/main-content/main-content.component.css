@@ -1,0 +1,48 @@
+.card-content img {
+    width: 100%;
+}
+
+.card {
+    cursor: pointer;
+    border-radius: 34px;
+}
+.card-action h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 1309px){
+    .card-action h3 {
+        font-size: 1.45rem;
+    }
+}
+
+@media only screen and (min-width: 993px){
+    .row .col.offset-l1 {
+        margin-left: 12.333333%;
+    }
+}
+
+@media only screen and (max-width: 930px){
+    .card-action h3 {
+        text-align: center;
+        font-size: 1.0rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .card-action h3 {
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+.card .card-action {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 34px;
+}
+
+.card .card-content {
+    padding-top: 0;
+}
